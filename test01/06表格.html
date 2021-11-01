@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <!-- 
+            表格：table(框),tr(行),td(单元格),th(比td多的属性：居中,加粗)
+            border="1px"设置表格的边框为1像素宽度。
+            width的值可以为百分比，优点：缩小网页也可以改变。
+            align对齐方式:向左，向右，居中。
+            rowspan行合并，colspan列合并。
+         -->
+         <table border="1px" width="30%" height="150px" align="center">
+             <thead>
+                <tr align="center">
+                    <td>1</td>
+                    <td colspan="2">23</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td >4</td>
+                    <td rowspan="2">58</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+            
+                    <th>9</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>c</th>
+                </tr>
+            </tfoot>    
+         </table>
+    </body>
+</html>
